@@ -1,0 +1,42 @@
+body {
+    background-color: #f2cc7f;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-container {
+    background-color: #f7d18c;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    width: 300px;
+  }
+  
+  .logo-section img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .btn-menu {
+    background-color: #af3e10;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    width: 100%;
+    box-shadow: 0 4px #802b08;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s ease;
+  }
+  
+  .btn-menu:active {
+    transform: translateY(2px);
+  }
+  
+  .btn-menu i {
+    font-size: 20px;
+  }
+  
